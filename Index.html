@@ -19,7 +19,7 @@
   <body>
  
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white container">
+        <nav class="navbar navbar-expand-lg sticky-top bg-white navbar-light">
           <a class="navbar-brand" href="https://digitaljourney.com.ar/"><img src="logo.DJ (1).png" width="100"  alt="Digital Journey" loading="lazy"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,8 +37,25 @@
                   <a class="dropdown-item" href="#">Ebook</a>
                 </div>
               </li>
-              <button class="btn btn-danger" type="button">QUIERO CRECER</a></li>
-           </ul>
+              <li><button class="btn btn-danger" type="button">QUIERO CRECER</a></li>
+              <li><button class="btn" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-search"></i> 
+                </button>
+              </li>
+                    <div class="fixed-top">
+                      <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-light p-3">
+                          <button class="close" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda..." aria-label="Search">
+                          </form>
+                        
+                      </div>
+                    </div>
+                  </div>
+            </ul>
           </div>
         </nav>
 
@@ -489,11 +506,11 @@
 
                 <i class="text-naranja fas fa-phone-alt"></i>
                 <span>Teléfonos</span>
-                <p>WA +549 (341) 6378266</p>
+                <p>WA <span class="text-naranja">+549 (341) 6378266</span></p>
                 
                 <i class="text-naranja fas fa-envelope"></i>
                 <span>Email</span>
-                <p>ventas@digitaljourney.com.ar</p>
+                <p class="text-naranja">ventas@digitaljourney.com.ar</p>
               </div>
 
               <div class="col-md-12 col-lg-4">
@@ -510,13 +527,13 @@
                 
 
               </div>
-            </div>  
-            <div width="100%" class="container">
+            </div> 
+            <div width="100%" class="container text-center text-lg-left p-4">
                 <hr class="border-naranja" width="90%"/>
                 <img class="mx-auto" src="DJA2-02-01-e1598391541540.png" width="100"  alt="Digital Journey" loading="lazy">
-                <div class="float-lg-right">
-                  <p style="text-align: right;"><span style="text-decoration: underline;"><a class="legales text-naranja">Aviso legal</a></span> &nbsp; . &nbsp; &nbsp;<span style="text-decoration: underline;"><a class="privacidad text-naranja">Política de Privacidad</a></span> &nbsp; &nbsp;. &nbsp; &nbsp;<span style="text-decoration: underline;"><a class="cookies text-naranja">Política de Cookies</a></span></p>
-                  <p class="text-white text-right m-0">Digital Journey © 2020. Todos los derechos reservados.</p>
+                <div class="float-lg-right text-center p-3">
+                  <p class="text-md-center text-lg-right text-white"><span style="text-decoration: underline;"><a class="legales text-naranja">Aviso legal</a></span> &nbsp; . &nbsp; &nbsp;<span style="text-decoration: underline;"><a class="privacidad text-naranja">Política de Privacidad</a></span> &nbsp; &nbsp;. &nbsp; &nbsp;<span style="text-decoration: underline;"><a class="cookies text-naranja">Política de Cookies</a></span></p>
+                  <p class="text-white text-sm-left text-md-left text-lg-right m-0">Digital Journey © 2020. Todos los derechos reservados.</p>
                 </div>
               
             </div>
