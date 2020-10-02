@@ -16,7 +16,8 @@
 }
 
 .border-naranja {
-    border-color: #f49739;
+    border-color: #f49739!important;
+    border-left-width: thick!important;
 }
 
 .titulo {
@@ -52,6 +53,7 @@
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
     font-weight: 700!important;
     background-image: linear-gradient(90deg,#e02b20 0%,#ff7f33 100%)!important;
+    box-shadow: 0px 20px 30px -10px #6f7372;
 }
   
 .text-naranja {
@@ -124,3 +126,4 @@
   text-align: center;
   text-shadow: 0.08em 0.08em 0em rgba(0,0,0,0.4);
 }
+
